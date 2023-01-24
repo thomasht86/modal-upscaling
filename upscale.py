@@ -11,11 +11,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from PIL import Image
 
-from fastapi import FastAPI
 
 import modal
 
-web_app = FastAPI()
 assets_path = Path(__file__).parent / "assets"
 stub = modal.Stub(name="image_upscaling")
 # Commit in `diffusers` to checkout from.

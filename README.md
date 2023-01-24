@@ -10,4 +10,4 @@ The upscaled images are saved to a shared volume. The shared volume can be acces
 
 To retrieve the upscaled images, run the following command: 
 
-`modal volume get image_upscaling_vol /cache/output/*.png [DESTINATION_DIR]`.
+`modal volume get image_upscaling_vol /output/*.png [DESTINATION_DIR]`.
